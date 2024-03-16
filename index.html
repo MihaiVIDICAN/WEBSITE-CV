@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>VIDICAN MIHAI</title>
+  </head>
+  <body>
+    <header id="sticky-nav">
+      <div class="navBar">
+        <div id="nav-logo">
+          <a href="#home">
+            <img class="myLogo" src="myLogo.jpg" alt="" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <a href="#home" id="homeBtn">Home</a>
+            <a href="#about" id="aboutBtn">About me</a>
+            <a href="#skills" id="skillsBtn">Skills</a>
+            <a href="#games" id="gamesBtn">Games</a>
+            <a href="#contact" id="contactBtn">Contact</a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="Home" id="home">
+      <div class="profileImage">
+        <img src="profilePic.jpg" alt="" />
+      </div>
+      <div class="homeContent">
+        <h4>Vidican Mihai</h4>
+        <h1>
+          I'm a<br />
+          <span id="developer"> Web Developer</span>
+        </h1>
+        <p>
+          I hope that you will find here everything you want to know about me!
+        </p>
+      </div>
+    </section>
+
+    <section class="About" id="about">
+      <div class="aboutContent">
+        <h1>Who am I?</h1>
+        <p>
+          Hello, my name is <span id="nameAbout">Mihai</span> and I am a 3rd
+          year student at the
+          <span class="bold">
+            Faculty of Electronics, Telecommunications and Information
+            Technology</span
+          >, specializing in <span class="bold"> Applied Electronics</span> at
+          the <span class="bold">Technical University of Cluj-Napoca</span>. I'm
+          looking for a job in the IT field especially in
+          <span class="bold">Web Development</span>. I like to do this very much
+          and I really want to work as a
+          <span class="bold">Web Developer</span>. I am
+          <span class="bold">very serious</span>,
+          <span class="bold">ambitious</span>, I like to work in
+          <span class="bold">a team</span>, I like to
+          <span class="bold">learn</span> as much as possible from the people
+          around me. I think I've said enough for now, I hope to give more
+          information about myself in an interview.
+          <span class="" bold>Thank you</span> very much for taking the time to
+          visit my website!
+        </p>
+      </div>
+      <div class="aboutImage">
+        <img src="aboutImage.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1 class="title">My skills:</h1>
+      <div class="container_skills">
+        <div class="htmlSkill">
+          <h1 class="skill-title">HTML</h1>
+          <img src="HTML.png" alt="" />
+
+          <div class="skillLevel">
+              <div class="skills html">80%</div>
+          </div>
+        </div>
+
+        <div class="cssSkill">
+          <h1 class="skill-title">
+            CSS
+          </h1>
+          <img src="css-3.png" alt="" />
+          <div class="skillLevel">
+            <div class="skills css">75%</div>
+          </div>
+        </div>
+
+        <div class="javaScriptSkill">
+          <h1 class="skill-title">JavaScript</h1>
+          <img src="java-script.png" alt="" />
+
+          <div class="skillLevel">
+            <div class="skills js">70%</div>
+          </div>
+        </div>
+
+        <div class="cplusplusSkill">
+          <h1 class="skill-title">C/C++</h1>
+          <img src="c-logo.png" alt="" />
+
+          <div class="skillLevel">
+            <div class="skills cpp">80%</div>
+          </div>
+        </div>
+        <div class="javaSkill">
+          <h1 class="skill-title">Java</h1>
+          <img src="java.png" alt="" />
+
+          <div class="skillLevel">
+            <div class="skills java">75%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Games" id="games">
+      <header>
+        <div class="title">
+          <h1>Rock, Paper, Scissors</h1>
+        </div>
+      </header>
+
+      <div class="inputs">
+        <div class="userInputs">
+          <h1 class="question">What do you choose?</h1>
+          <div class="options">
+            <img src="rock.png" id="rock" alt="" />
+            <img src="paper.png" id="paper" alt="" />
+            <img src="scissors.png" id="scissors" alt="" />
+          </div>
+        </div>
+        <div class="comp_Choice">
+          <h1>Computer choosed:</h1>
+          <div id="comp_Choice">
+            <img src="rock.png" id="comp_img" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Score:</h1>
+        <div class="score">
+          <div class="yourScore">
+            <h1>You</h1>
+            <h2 id="user_score">0</h2>
+          </div>
+          <div class="compScore">
+            <h1>Computer</h1>
+            <h2 id="computer_score">0</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Contact" id="contact">
+      <header>
+        <h1 id="contact_title">Contact</h1>
+      </header>
+      <div id="social-media">
+        <div id="mail" class="icons">
+          <h1>Mail</h1>
+          <a href=""></a>
+          <img src="mail.png" alt="" />
+          <h2>mihaidvidican@gmail.com</h2>
+        </div>
+        <div id="phone" class="icons">
+          <h1>Phone number</h1>
+          <img src="phone.png" alt="" />
+          <h2>+40 799 457 629</h2>
+        </div>
+        <div id="linkedin" class="icons">
+          <h1>LinkedIn</h1>
+          <a href="https://www.linkedin.com/in/mihai-vidican/">
+            <img src="linkedin.png" alt="" />
+          </a>
+          <h2>Mihai Vidican</h2>
+        </div>
+        <div id="github" class="icons">
+          <h1>GitHub</h1>
+          <a href="https://github.com/MihaiVIDICAN">
+            <img src="github.png" alt="" />
+          </a>
+          <h2>MihaiVIDICAN</h2>
+        </div>
+        <div id="facebook" class="icons">
+          <h1>Facebook</h1>
+          <a href="https://www.facebook.com/mihai.vidican.11">
+            <img src="facebook.png" alt="" />
+          </a>
+          <h2>Vidican Mihai</h2>
+        </div>
+        <div id="instagram" class="icons">
+          <h1>Instagram</h1>
+          <a href="https://www.instagram.com/mihaividican/">
+            <img src="instagram.png" alt="" />
+          </a>
+          <h2>mihaividican</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
